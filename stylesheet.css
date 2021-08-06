@@ -1,0 +1,24 @@
+#footer{
+    background-color: #003665;
+}
+#title{
+    display: inline-block;
+    position: relative;
+    padding: 2px;
+}  
+#title:before {
+    content: "";
+    position: absolute;
+    width: 25%;
+    bottom: 0;
+    border-bottom: 1px solid white;
+}
+#content{
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width: 768px) {
+    #title:before{
+        width: 50%;
+    }
+}
